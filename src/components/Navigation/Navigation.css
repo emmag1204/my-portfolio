@@ -1,0 +1,38 @@
+.principal {
+    background-color: #F4EAE0;
+    font-family: 'Modernist';
+    color: #002D72;
+    letter-spacing: 0.1rem;
+    display: flex;
+}
+
+.marca {
+    padding-left: 2rem;
+}
+
+.presentacion {
+    font-size: 1.2rem;
+    padding-top: 1.3rem;
+    flex: 2;
+    text-align: center;
+}
+
+.informacion {
+    font-weight: bold;
+    padding-top: 3.5rem;
+    padding-right: 6rem;
+    display: flex;
+    flex: 0.8;
+    text-align: end;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #002D72;
+    transition: font-size 0.3s ease; 
+}
+
+a:hover {
+    font-size: 1.5rem;
+}

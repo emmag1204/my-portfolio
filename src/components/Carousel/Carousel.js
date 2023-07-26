@@ -19,7 +19,6 @@ function Carousel() {
         image: require('./img/topologia-red.png'),
         title: 'NETWORKS',
         text: 'Developed a networks project to change analogic sensors in Tec de Monterrey residence halls to digital sensors connected to Wi-Fi.  Network project simulated in Cisco Packet Tracer.',
-        videoLink: 'https://youtu.be/FExIM3lasQ0',
     },
   ];
 

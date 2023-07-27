@@ -2,29 +2,33 @@
     background-color: #F4EAE0;
     font-family: 'Modernist';
     color: #002D72;
+    padding: 0;
     letter-spacing: 0.1rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .marca {
-    padding-left: 2rem;
+    text-align: left;
+    padding-left: 5rem;
+    flex: 1;
 }
 
 .presentacion {
     font-size: 1.2rem;
     padding-top: 1.3rem;
-    flex: 2;
-    text-align: center;
+    flex: 1;
+    text-align: left;
 }
 
 .informacion {
     font-weight: bold;
     padding-top: 3.5rem;
-    padding-right: 6rem;
     display: flex;
-    flex: 0.8;
+    flex: 1;
     text-align: end;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 a {
@@ -35,4 +39,17 @@ a {
 
 a:hover {
     font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .marca{
+        display: none;
+    }
+    
+    .presentacion, .informacion {
+        padding: 0.5rem; 
+        flex: 1; 
+        text-align: center;
+    }
+
 }

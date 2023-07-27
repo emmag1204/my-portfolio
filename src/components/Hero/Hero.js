@@ -18,7 +18,7 @@ function Hero() {
                 </p>
             </div>
             <div className='veo'>
-                <img className='foto' width='410' height='480' src={emma} alt='me'/>
+                <img className='foto' src={emma} alt='me'/>
             </div>
         </div>
         <div className='cajaazul'>

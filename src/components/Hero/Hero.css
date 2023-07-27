@@ -13,7 +13,7 @@ body {
 
 .soy, .veo {
     padding: 5rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
 }
   
@@ -29,7 +29,8 @@ body {
 }
 
 .foto {
-    text-align: center;
+    width: 100%; 
+    max-width: 420px; 
     border-radius: 5rem;
 }
 
@@ -48,4 +49,27 @@ footer {
     color: #002D72;
     background-color: rgba(244, 234, 224, 0.8);
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .cajablanca {
+        grid-template-columns: 1fr;
+    }
+
+    .soy, .veo {
+        padding: 1rem; 
+        font-size: 1.2rem;
+    }
+
+    .soy h1 {
+        padding-top: 2rem;
+    }
+
+    .proyectos {
+        padding-top: 1rem; 
+    }
+
+    footer {
+        font-size: 0.8rem; 
+    }
 }

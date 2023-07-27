@@ -15,8 +15,8 @@ function Navigation() {
                 <h1>Welcome to my Portfolio !</h1>
             </Container>
             <Container className='informacion'>
-                <a href='/'>About me</a>
-                <a href='https://drive.google.com/file/d/12jpsrIvL_w2BTGRn41784gi1SZ9gICzv/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume</a>
+                <a href='https://github.com/emmag1204' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                <a href='https://drive.google.com/file/d/12jpsrIvL_w2BTGRn41784gi1SZ9gICzv/view?usp=sharing' target='_blank' rel='noopener noreferrer'>Resume</a>
                 <a href='mailto:emma.alfarod@gmail.com'>Contact</a>
             </Container>
         </Navbar>

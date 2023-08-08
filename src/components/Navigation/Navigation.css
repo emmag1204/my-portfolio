@@ -48,8 +48,16 @@ a:hover {
     
     .presentacion, .informacion {
         padding: 0.5rem; 
-        flex: 1; 
         text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .presentacion {
+        padding-top: 2rem;
+    }
+
+    .principal {
+        flex-direction: column;
     }
 
 }

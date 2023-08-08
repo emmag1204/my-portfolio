@@ -12,7 +12,7 @@ function Navigation() {
                 </a>
             </Container>
             <Container className='presentacion'>
-                <h1>Welcome to my Portfolio !</h1>
+                <h1>Welcome to my Portfolio!</h1>
             </Container>
             <Container className='informacion'>
                 <a href='https://github.com/emmag1204' target='_blank' rel='noopener noreferrer'>GitHub</a>

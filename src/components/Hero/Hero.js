@@ -8,7 +8,7 @@ function Hero() {
     <div>
         <div className='cajablanca'>
             <div className='soy'>
-                <h1>Who is Emma ?</h1>
+                <h1>Who is Emma?</h1>
                 <p>
                     👋 I am currently a Computer Science 👩‍💻 Student at Tec de Monterrey in Guadalajara, Jalisco.
                     Throughout my career, I haved developed different projects 💻 , some of which have made me developed skills 🛠️

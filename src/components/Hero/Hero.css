@@ -49,6 +49,7 @@ footer {
     color: #002D72;
     background-color: rgba(244, 234, 224, 0.8);
     font-weight: bold;
+    padding: 0.5rem;
 }
 
 @media (max-width: 768px) {

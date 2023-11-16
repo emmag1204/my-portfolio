@@ -20,6 +20,12 @@ function Carousel() {
         title: 'NETWORKS',
         text: 'Developed a networks project to change analogic sensors in Tec de Monterrey residence halls to digital sensors connected to Wi-Fi.  Network project simulated in Cisco Packet Tracer.',
     },
+    {
+      image: require('./img/bamx-logo.png'),
+      title: 'DESIGN AND BUILDING OF A MOBILE APP IN SWIFTUI',
+      text: 'Build and design of mobile app in SwiftUI for "Banco de Alimentos de Guadalajara", where what we wanted to accomplish is to make easier the food donation process for users donating and having a better control of each recollection center inventory for administrators.',
+      videoLink: 'https://youtu.be/VDB0ugQm-y0?si=DmYev0WdZNs-ClC7',
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

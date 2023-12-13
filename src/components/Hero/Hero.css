@@ -6,13 +6,13 @@ body {
 .cajablanca {
     background-color: #F4EAE0;
     color: #002D72;
-    padding-bottom: 0.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr; 
 }
 
 .soy, .veo {
-    padding: 5rem;
+    margin: 5rem;
+    margin-top: 2rem;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -20,7 +20,6 @@ body {
 .soy h1 {
     text-align: center;
     margin-top: 0;
-    margin-bottom: 4rem;
 }
 
 .soy p{
@@ -52,22 +51,40 @@ footer {
     padding: 0.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .cajablanca {
         grid-template-columns: 1fr;
+
     }
 
     .soy, .veo {
-        padding: 1rem; 
-        font-size: 1.2rem;
+        margin: 1.5rem;
+    }
+
+    .veo {
+        margin-top: -1rem;
+        margin-bottom: 2rem;
     }
 
     .soy h1 {
-        padding-top: 2rem;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .soy p {
+        margin: 1rem;
+        font-size: 1rem;
     }
 
     .proyectos {
         padding-top: 1rem; 
+    }
+
+    .foto {
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        border-radius: 20%
     }
 
     footer {

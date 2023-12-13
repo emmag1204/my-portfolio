@@ -51,14 +51,18 @@ function Carousel() {
             <div className='carousel-content'>
                 <h3>{slide.title}</h3>
                 <p>{slide.text}</p>
-                <a className='carousel-video' href={slide.videoLink}>Click here for video demo</a>
+                <div className='carousel-buttons'>
+                  <a className='carousel-video' target='_blank' rel='noopener noreferrer' href={slide.videoLink}>
+                    <p>VIDEO DEMO</p>
+                  </a>
+                </div>
             </div>
           </div>
         ))}
       </div>
-      <div className='carousel-buttons'>
-        <button className='carousel-btn prev' onClick={goToPrevSlide}>&larr;</button>
-        <button className='carousel-btn next' onClick={goToNextSlide}>&rarr;</button>
+      <div className='carousel-navigation'>
+        <button className='carousel-prev' onClick={goToPrevSlide}>&larr;</button>
+        <button className='carousel-next' onClick={goToNextSlide}>&rarr;</button>
       </div>
       <div className='carousel-dots'>
         {data.map((_, index) => (

@@ -27,7 +27,7 @@ function Hero() {
                 <Carousel />
             </div>
             <footer>
-                made with ❤️ using React. thanks for visiting my website !
+                made with ❤️ using React and Django. thanks for visiting my website !
             </footer>
         </div>
 

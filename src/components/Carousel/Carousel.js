@@ -3,32 +3,7 @@ import API from '../ENV/Api';
 import './Carousel.css';
 
 function Carousel() {
-  const data = [
-    {
-        image: require('./img/kueski-logo.jpeg'),
-        title: 'INTERFACE FOR KUESKI ADMINISTRATORS',
-        text: 'Developed a web interface with NodeJS, React and MySQL data base, it was a school project for Kueski, the interface was developed to valid ARCO rights of Kueski clients by company administrators.',
-        videoLink: 'https://youtu.be/FExIM3lasQ0',
-    },
-    {
-        image: require('./img/parking.png'),
-        title: 'DESIGN AND BUILDING OF AN AUTOMATIZED PARKING',
-        text: 'Build and design a scale model prototype of an automated parking with sensors, data base and an app in React for facilitating the searching of available parking spots. Connect real-time database to ultrasonic sensors that indicate if the place is available or not.',
-        videoLink: 'https://youtu.be/zILJUfAmDR4',
-    },
-    {
-        image: require('./img/topologia-red.png'),
-        title: 'NETWORKS',
-        text: 'Developed a networks project to change analogic sensors in Tec de Monterrey residence halls to digital sensors connected to Wi-Fi.  Network project simulated in Cisco Packet Tracer.',
-    },
-    {
-      image: require('./img/bamx-logo.png'),
-      title: 'DESIGN AND BUILDING OF A MOBILE APP IN SWIFTUI',
-      text: 'Build and design of mobile app in SwiftUI for "Banco de Alimentos de Guadalajara", where what we wanted to accomplish is to make easier the food donation process for users donating and having a better control of each recollection center inventory for administrators.',
-      videoLink: 'https://youtu.be/VDB0ugQm-y0?si=DmYev0WdZNs-ClC7',
-    },
-  ];
-
+  
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
